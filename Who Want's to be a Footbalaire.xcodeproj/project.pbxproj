@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4028E41ECCB29E00FCF696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4028E31ECCB29E00FCF696 /* AppDelegate.swift */; };
+		8B4028E61ECCB29E00FCF696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4028E51ECCB29E00FCF696 /* ViewController.swift */; };
+		8B4028E91ECCB29E00FCF696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4028E71ECCB29E00FCF696 /* Main.storyboard */; };
+		8B4028EB1ECCB29E00FCF696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4028EA1ECCB29E00FCF696 /* Assets.xcassets */; };
+		8B4028EE1ECCB29E00FCF696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4028EC1ECCB29E00FCF696 /* LaunchScreen.storyboard */; };
+		8B4028F91ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4028F81ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift */; };
+		8B4029041ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4029031ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4028F51ECCB29E00FCF696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4028D81ECCB29E00FCF696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4028DF1ECCB29E00FCF696;
+			remoteInfo = "Who Want's to be a Footbalaire";
+		};
+		8B4029001ECCB29E00FCF696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4028D81ECCB29E00FCF696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4028DF1ECCB29E00FCF696;
+			remoteInfo = "Who Want's to be a Footbalaire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4028E01ECCB29E00FCF696 /* Who Want's to be a Footbalaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Who Want's to be a Footbalaire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4028E31ECCB29E00FCF696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B4028E51ECCB29E00FCF696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B4028E81ECCB29E00FCF696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B4028EA1ECCB29E00FCF696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4028ED1ECCB29E00FCF696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B4028EF1ECCB29E00FCF696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4028F41ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who Want's to be a FootbalaireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4028F81ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Want_s_to_be_a_FootbalaireTests.swift; sourceTree = "<group>"; };
+		8B4028FA1ECCB29E00FCF696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4028FF1ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who Want's to be a FootbalaireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4029031ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Want_s_to_be_a_FootbalaireUITests.swift; sourceTree = "<group>"; };
+		8B4029051ECCB29E00FCF696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4028DD1ECCB29E00FCF696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4028F11ECCB29E00FCF696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4028FC1ECCB29E00FCF696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4028D71ECCB29E00FCF696 = {
+			isa = PBXGroup;
+			children = (
+				8B4028E21ECCB29E00FCF696 /* Who Want's to be a Footbalaire */,
+				8B4028F71ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests */,
+				8B4029021ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests */,
+				8B4028E11ECCB29E00FCF696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4028E11ECCB29E00FCF696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4028E01ECCB29E00FCF696 /* Who Want's to be a Footbalaire.app */,
+				8B4028F41ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests.xctest */,
+				8B4028FF1ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4028E21ECCB29E00FCF696 /* Who Want's to be a Footbalaire */ = {
+			isa = PBXGroup;
+			children = (
+				8B4028E31ECCB29E00FCF696 /* AppDelegate.swift */,
+				8B4028E51ECCB29E00FCF696 /* ViewController.swift */,
+				8B4028E71ECCB29E00FCF696 /* Main.storyboard */,
+				8B4028EA1ECCB29E00FCF696 /* Assets.xcassets */,
+				8B4028EC1ECCB29E00FCF696 /* LaunchScreen.storyboard */,
+				8B4028EF1ECCB29E00FCF696 /* Info.plist */,
+			);
+			path = "Who Want's to be a Footbalaire";
+			sourceTree = "<group>";
+		};
+		8B4028F71ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4028F81ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift */,
+				8B4028FA1ECCB29E00FCF696 /* Info.plist */,
+			);
+			path = "Who Want's to be a FootbalaireTests";
+			sourceTree = "<group>";
+		};
+		8B4029021ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4029031ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift */,
+				8B4029051ECCB29E00FCF696 /* Info.plist */,
+			);
+			path = "Who Want's to be a FootbalaireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4028DF1ECCB29E00FCF696 /* Who Want's to be a Footbalaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4029081ECCB29E00FCF696 /* Build configuration list for PBXNativeTarget "Who Want's to be a Footbalaire" */;
+			buildPhases = (
+				8B4028DC1ECCB29E00FCF696 /* Sources */,
+				8B4028DD1ECCB29E00FCF696 /* Frameworks */,
+				8B4028DE1ECCB29E00FCF696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Who Want's to be a Footbalaire";
+			productName = "Who Want's to be a Footbalaire";
+			productReference = 8B4028E01ECCB29E00FCF696 /* Who Want's to be a Footbalaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B4028F31ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B40290B1ECCB29E00FCF696 /* Build configuration list for PBXNativeTarget "Who Want's to be a FootbalaireTests" */;
+			buildPhases = (
+				8B4028F01ECCB29E00FCF696 /* Sources */,
+				8B4028F11ECCB29E00FCF696 /* Frameworks */,
+				8B4028F21ECCB29E00FCF696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4028F61ECCB29E00FCF696 /* PBXTargetDependency */,
+			);
+			name = "Who Want's to be a FootbalaireTests";
+			productName = "Who Want's to be a FootbalaireTests";
+			productReference = 8B4028F41ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B4028FE1ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B40290E1ECCB29E00FCF696 /* Build configuration list for PBXNativeTarget "Who Want's to be a FootbalaireUITests" */;
+			buildPhases = (
+				8B4028FB1ECCB29E00FCF696 /* Sources */,
+				8B4028FC1ECCB29E00FCF696 /* Frameworks */,
+				8B4028FD1ECCB29E00FCF696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4029011ECCB29E00FCF696 /* PBXTargetDependency */,
+			);
+			name = "Who Want's to be a FootbalaireUITests";
+			productName = "Who Want's to be a FootbalaireUITests";
+			productReference = 8B4028FF1ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4028D81ECCB29E00FCF696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Koki Ide";
+				TargetAttributes = {
+					8B4028DF1ECCB29E00FCF696 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 449CT75YYP;
+						ProvisioningStyle = Automatic;
+					};
+					8B4028F31ECCB29E00FCF696 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 449CT75YYP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B4028DF1ECCB29E00FCF696;
+					};
+					8B4028FE1ECCB29E00FCF696 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 449CT75YYP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8B4028DF1ECCB29E00FCF696;
+					};
+				};
+			};
+			buildConfigurationList = 8B4028DB1ECCB29E00FCF696 /* Build configuration list for PBXProject "Who Want's to be a Footbalaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4028D71ECCB29E00FCF696;
+			productRefGroup = 8B4028E11ECCB29E00FCF696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4028DF1ECCB29E00FCF696 /* Who Want's to be a Footbalaire */,
+				8B4028F31ECCB29E00FCF696 /* Who Want's to be a FootbalaireTests */,
+				8B4028FE1ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4028DE1ECCB29E00FCF696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4028EE1ECCB29E00FCF696 /* LaunchScreen.storyboard in Resources */,
+				8B4028EB1ECCB29E00FCF696 /* Assets.xcassets in Resources */,
+				8B4028E91ECCB29E00FCF696 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4028F21ECCB29E00FCF696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4028FD1ECCB29E00FCF696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4028DC1ECCB29E00FCF696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4028E61ECCB29E00FCF696 /* ViewController.swift in Sources */,
+				8B4028E41ECCB29E00FCF696 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4028F01ECCB29E00FCF696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4028F91ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4028FB1ECCB29E00FCF696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4029041ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4028F61ECCB29E00FCF696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4028DF1ECCB29E00FCF696 /* Who Want's to be a Footbalaire */;
+			targetProxy = 8B4028F51ECCB29E00FCF696 /* PBXContainerItemProxy */;
+		};
+		8B4029011ECCB29E00FCF696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4028DF1ECCB29E00FCF696 /* Who Want's to be a Footbalaire */;
+			targetProxy = 8B4029001ECCB29E00FCF696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B4028E71ECCB29E00FCF696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4028E81ECCB29E00FCF696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B4028EC1ECCB29E00FCF696 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4028ED1ECCB29E00FCF696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B4029061ECCB29E00FCF696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B4029071ECCB29E00FCF696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4029091ECCB29E00FCF696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 449CT75YYP;
+				INFOPLIST_FILE = "Who Want's to be a Footbalaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kokiide.com.Who-Want-s-to-be-a-Footbalaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B40290A1ECCB29E00FCF696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 449CT75YYP;
+				INFOPLIST_FILE = "Who Want's to be a Footbalaire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kokiide.com.Who-Want-s-to-be-a-Footbalaire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8B40290C1ECCB29E00FCF696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 449CT75YYP;
+				INFOPLIST_FILE = "Who Want's to be a FootbalaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kokiide.com.Who-Want-s-to-be-a-FootbalaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Who Want's to be a Footbalaire.app/Who Want's to be a Footbalaire";
+			};
+			name = Debug;
+		};
+		8B40290D1ECCB29E00FCF696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 449CT75YYP;
+				INFOPLIST_FILE = "Who Want's to be a FootbalaireTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kokiide.com.Who-Want-s-to-be-a-FootbalaireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Who Want's to be a Footbalaire.app/Who Want's to be a Footbalaire";
+			};
+			name = Release;
+		};
+		8B40290F1ECCB29E00FCF696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 449CT75YYP;
+				INFOPLIST_FILE = "Who Want's to be a FootbalaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kokiide.com.Who-Want-s-to-be-a-FootbalaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Who Want's to be a Footbalaire";
+			};
+			name = Debug;
+		};
+		8B4029101ECCB29E00FCF696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 449CT75YYP;
+				INFOPLIST_FILE = "Who Want's to be a FootbalaireUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kokiide.com.Who-Want-s-to-be-a-FootbalaireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Who Want's to be a Footbalaire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4028DB1ECCB29E00FCF696 /* Build configuration list for PBXProject "Who Want's to be a Footbalaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4029061ECCB29E00FCF696 /* Debug */,
+				8B4029071ECCB29E00FCF696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4029081ECCB29E00FCF696 /* Build configuration list for PBXNativeTarget "Who Want's to be a Footbalaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4029091ECCB29E00FCF696 /* Debug */,
+				8B40290A1ECCB29E00FCF696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B40290B1ECCB29E00FCF696 /* Build configuration list for PBXNativeTarget "Who Want's to be a FootbalaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B40290C1ECCB29E00FCF696 /* Debug */,
+				8B40290D1ECCB29E00FCF696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B40290E1ECCB29E00FCF696 /* Build configuration list for PBXNativeTarget "Who Want's to be a FootbalaireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B40290F1ECCB29E00FCF696 /* Debug */,
+				8B4029101ECCB29E00FCF696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B4028D81ECCB29E00FCF696 /* Project object */;
+}
