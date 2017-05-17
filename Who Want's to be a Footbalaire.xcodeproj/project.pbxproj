@@ -14,6 +14,8 @@
 		8B4028EE1ECCB29E00FCF696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4028EC1ECCB29E00FCF696 /* LaunchScreen.storyboard */; };
 		8B4028F91ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4028F81ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireTests.swift */; };
 		8B4029041ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4029031ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift */; };
+		8B4029121ECCCD1200FCF696 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4029111ECCCD1200FCF696 /* QuizViewController.swift */; };
+		8B4029141ECCCD6200FCF696 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4029131ECCCD6200FCF696 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8B4028FF1ECCB29E00FCF696 /* Who Want's to be a FootbalaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Who Want's to be a FootbalaireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4029031ECCB29E00FCF696 /* Who_Want_s_to_be_a_FootbalaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Who_Want_s_to_be_a_FootbalaireUITests.swift; sourceTree = "<group>"; };
 		8B4029051ECCB29E00FCF696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4029111ECCCD1200FCF696 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		8B4029131ECCCD6200FCF696 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8B4028E31ECCB29E00FCF696 /* AppDelegate.swift */,
 				8B4028E51ECCB29E00FCF696 /* ViewController.swift */,
 				8B4028E71ECCB29E00FCF696 /* Main.storyboard */,
+				8B4029111ECCCD1200FCF696 /* QuizViewController.swift */,
+				8B4029131ECCCD6200FCF696 /* ResultViewController.swift */,
 				8B4028EA1ECCB29E00FCF696 /* Assets.xcassets */,
 				8B4028EC1ECCB29E00FCF696 /* LaunchScreen.storyboard */,
 				8B4028EF1ECCB29E00FCF696 /* Info.plist */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4029121ECCCD1200FCF696 /* QuizViewController.swift in Sources */,
 				8B4028E61ECCB29E00FCF696 /* ViewController.swift in Sources */,
 				8B4028E41ECCB29E00FCF696 /* AppDelegate.swift in Sources */,
+				8B4029141ECCCD6200FCF696 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
